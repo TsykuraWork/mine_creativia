@@ -1,77 +1,79 @@
-*{
+* {
     box-sizing: border-box;
 }
 
+/* FIRST SCREEN */
 
-
-.screen-first{
+.screen-first {
     background: url(../img/Clip@2x.png);
-    background-size:cover ;
+    background-size: cover;
     height: 700px
 }
 
-.screen-first .logo-title{
+.screen-first .logo-title {
     color: white;
     position: absolute;
-    left:161px;
+    left: 161px;
     top: 36px;
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
     letter-spacing: 0.4em;
 }
 
-.logo-section{
+.logo-section {
     position: absolute;
     left: 115px;
-    top:-57.5px;
+    top: -57.5px;
 
 
 }
 
-.logo__hex{
+.logo__hex {
     height: 103.5px;
     width: 250px;
     position: absolute;
     background-color: #131313;
 }
 
-.logo__center{
+.logo__center {
     border-right: 2px solid red;
     border-left: 2px solid red
 }
 
-.logo__rotate-right{
-border-right: 2px solid red;
-transform:rotate(45deg);
+.logo__rotate-right {
+    border-right: 2px solid red;
+    transform: rotate(45deg);
 }
 
-.logo__rotate-left{
-border-left: 2px solid red;
-transform:rotate(-45deg);
+.logo__rotate-left {
+    border-left: 2px solid red;
+    transform: rotate(-45deg);
 }
 
 
 
 .logo__rotate-top {
-border-right: 2px solid red;
-transform: rotate(90deg);
+    border-right: 2px solid red;
+    transform: rotate(90deg);
 }
+
 .screen-first__hidden {
-        width: 100%;
-        height: 700px;
-        z-index: -1;
-        background-color: rgb(0, 0, 0, .7);
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+    background-color: rgb(0, 0, 0, .7);
 }
-.nav-container{
-    background-color: rgb(0,0,0,.9);
+
+.nav-container {
+    background-color: rgb(0, 0, 0, .9);
     height: 70px;
 }
 
-.screen-first li:first-child{
+.screen-first li:first-child {
     color: white;
 }
 
-.screen-first ul{
+.screen-first ul {
     margin: 0 124px 0 443.8px;
 
 }
@@ -89,17 +91,17 @@ transform: rotate(90deg);
 
 
 
-.screen-first li:hover{
+.screen-first li:hover {
     cursor: pointer;
 }
 
 .screen-first li:hover::before {
-     position:absolute;
-     top:-100%;
-     left:50%;
-     width:50%;
-     border-top:1px solid red;
-     content:"";
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    width: 50%;
+    border-top: 1px solid red;
+    content: "";
 }
 
 
@@ -113,27 +115,27 @@ transform: rotate(90deg);
 }
 
 
-.red{
-    color:red;
+.red {
+    color: red;
 }
 
-.screen-first p{
-    color:white;
+.screen-first p {
+    color: white;
 
 }
 
-.first-button{
-color:white;
-padding: 13px 35px;
-background-color: #FF0036;
-width: 170px;
-height: 50px;
-display: inline-block;
-margin-right: 30px;
+.first-button {
+    color: white;
+    padding: 13px 35px;
+    background-color: #FF0036;
+    width: 170px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 30px;
 }
 
-.second-button{
-    color:white; 
+.second-button {
+    color: white;
     padding: 13px 35px;
     background-color: #131313;
     width: 170px;
@@ -141,7 +143,7 @@ margin-right: 30px;
     display: inline-block;
 }
 
-.screen-first .text-title{
+.screen-first .text-title {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 30px;
@@ -152,26 +154,101 @@ margin-right: 30px;
 .screen-first .text-description {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
-   
+
 }
 
-.screen-first__main{
+.screen-first__main {
     display: flex;
     justify-content: center;
 
 }
-.screen-first__main-container{
+
+.screen-first__main-container {
     width: 1030px;
     display: block;
     text-align: center;
-    padding:10px;
-    margin-top:179px;
+    padding: 10px;
+    margin-top: 179px;
 
 }
-.screen-first__button-container{
+
+.screen-first__button-container {
     margin-top: 36.5px;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 600;
-    
+
 }
+
+/* /FIRST SCREEN */
+
+
+/* SECOND SCREEN */
+
+.screen-second .p-header {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.screen-second span {
+    color: red;
+}
+
+.screen-second {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.screen-second__left {
+    width: 50%;
+}
+
+.screen-second__left p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+
+    margin-bottom: 20px;
+}
+
+
+
+.screen-second button{
+    width: 100%;
+    text-align: left;
+    border: 2px solid #E7E7E7;
+    background-color: #F7F7F7;
+    cursor: pointer;
+    padding:0px;
+    position: relative;
+
+}
+.screen-second button:focus::after{
+    content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et dolor justo. Phasellus eu ligula ac nisl volutpat tincidunt. Vestibulum vitae rhoncus odio Fusce sed enim erat. Mauris dictum lorem eu tortor porta placerat. Suspendisse ac vestibulum eros.";
+    position: absolute;
+    top:100%;
+    left:0;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    /* POSMOTRET SSILKY DLYA VIPADAUSHEGO MENU http://htmlbook.ru/blog/primer-slaydera-upravlyaemogo-tolko-s-pomoshchyu-css3 */
+
+}
+
+.dropdown__icon-plus {
+    display: inline-block;
+    padding: 14px 21px;
+    border: 2px solid #E7E7E7;
+}
+
+.dropdown__text {
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20;
+    font-weight: medium;
+
+}
+
+/* /SECOND SCREEN */
