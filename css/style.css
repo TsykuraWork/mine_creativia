@@ -3,13 +3,14 @@
 }
 
 
+
 .screen-first{
     background: url(../img/Clip@2x.png);
     background-size:cover ;
-    height: 100vh;
+    height: 700px
 }
 
-.screen-first span{
+.screen-first .logo-title{
     color: white;
     position: absolute;
     left:161px;
@@ -20,7 +21,11 @@
 }
 
 .logo-section{
-    transform: translate(115px,-57.5px)
+    position: absolute;
+    left: 115px;
+    top:-57.5px;
+
+
 }
 
 .logo__hex{
@@ -51,9 +56,9 @@ transform:rotate(-45deg);
 border-right: 2px solid red;
 transform: rotate(90deg);
 }
-header{
+.screen-first__hidden {
         width: 100%;
-        height: 100%;
+        height: 700px;
         z-index: -1;
         background-color: rgb(0, 0, 0, .7);
 }
@@ -68,6 +73,7 @@ header{
 
 .screen-first ul{
     margin: 0 124px 0 443.8px;
+
 }
 
 .screen-first li {
@@ -78,4 +84,94 @@ header{
     margin-right: 35px;
     margin-top: 24.5px;
     margin-bottom: 24.5px;
+    position: relative;
+}
+
+
+
+.screen-first li:hover{
+    cursor: pointer;
+}
+
+.screen-first li:hover::before {
+     position:absolute;
+     top:-100%;
+     left:50%;
+     width:50%;
+     border-top:1px solid red;
+     content:"";
+}
+
+
+.screen-first li:hover::after {
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    width: 50%;
+    border-top: 1px solid red;
+    content: "";
+}
+
+
+.red{
+    color:red;
+}
+
+.screen-first p{
+    color:white;
+
+}
+
+.first-button{
+color:white;
+padding: 13px 35px;
+background-color: #FF0036;
+width: 170px;
+height: 50px;
+display: inline-block;
+margin-right: 30px;
+}
+
+.second-button{
+    color:white; 
+    padding: 13px 35px;
+    background-color: #131313;
+    width: 170px;
+    height: 50px;
+    display: inline-block;
+}
+
+.screen-first .text-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 55px;
+}
+
+
+.screen-first .text-description {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+   
+}
+
+.screen-first__main{
+    display: flex;
+    justify-content: center;
+
+}
+.screen-first__main-container{
+    width: 1030px;
+    display: block;
+    text-align: center;
+    padding:10px;
+    margin-top:179px;
+
+}
+.screen-first__button-container{
+    margin-top: 36.5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    
 }
