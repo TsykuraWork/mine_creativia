@@ -202,7 +202,8 @@
 }
 
 .screen-second__left {
-    width: 50%;
+    width: 45%;
+    display: inline-block;
 }
 
 .screen-second__left p {
@@ -302,5 +303,49 @@
     font-weight: 600;
 
 }
+.screen-second__right{
+        width: 45%;
+        display: inline-block;
+        margin-left: 5%;
+}
+
+.img-container{
+    position: relative;
+    margin-top: 70px;
+
+}
+
+.front{
+    width: 415px;
+    height: 360px;
+    z-index: 5;
+    position: absolute;
+    left:10%;
+}
+.left {
+     width: 375px;
+     height: 324px;
+     z-index: 2;
+    position: absolute;
+    left:0px;
+    top:18px;
+    background: rgb(0,0,0)
+}
+.right {
+     width: 375px;
+     height: 324px;
+     z-index: 2;
+    position: absolute;
+    right:0px;
+    top:18px;
+
+
+}
+
+.screen-second__main{
+    display: flex;
+}
+
+
 
 /* /SECOND SCREEN */
