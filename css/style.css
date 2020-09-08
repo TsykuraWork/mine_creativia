@@ -214,40 +214,89 @@
 
 
 
-.screen-second button{
+.screen-second button {
     width: 100%;
+  
     text-align: left;
+    border: none;
     border: 2px solid #E7E7E7;
     background-color: #F7F7F7;
     cursor: pointer;
-    padding:0px;
-    position: relative;
+    padding: 0px;
+ 
+    
+
+
+
 
 }
-.screen-second button:focus::after{
-    content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et dolor justo. Phasellus eu ligula ac nisl volutpat tincidunt. Vestibulum vitae rhoncus odio Fusce sed enim erat. Mauris dictum lorem eu tortor porta placerat. Suspendisse ac vestibulum eros.";
-    position: absolute;
-    top:100%;
-    left:0;
+
+.screen-second button:focus {
+    outline: none;
+    transition: all 3s ease-in-out;
+}
+
+.screen-second button:focus > .dropdown__icon-plus {
+    background-image: url(./../img/Shape\ 6.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+
+
+.screen-second button:after {
+    content: '';
+    width: 100%;
+    height: 0;
+    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+}
+
+.screen-second button:focus::after {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et dolor justo. Phasellus eu ligula ac nisl volutpat tincidunt. Vestibulum vitae rhoncus odio Fusce sed enim erat. Mauris dictum lorem eu tortor porta placerat. Suspendisse ac vestibulum eros.";
+    display: block;
+    width: 96.4%;
+    height: 100%;
+    border: 2px solid #E7E7E7;
+    background-color: #fff;
     padding: 10px;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
+
+
     /* POSMOTRET SSILKY DLYA VIPADAUSHEGO MENU http://htmlbook.ru/blog/primer-slaydera-upravlyaemogo-tolko-s-pomoshchyu-css3 */
 
 }
 
-.dropdown__icon-plus {
-    display: inline-block;
-    padding: 14px 21px;
-    border: 2px solid #E7E7E7;
+.zaglushka {
+    height: 300px;
+    /* background-color: green; */
 }
 
-.dropdown__text {
-    display: inline-block;
-    padding: 10px 20px;
+.dropdown__icon-plus {
+    display: table-cell;
+
+    background-image: url(./../img/Shape\ 7.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;   
+    height: 45px;
+    width: 60px;
+
+    border-right: 2px solid #E7E7E7;
+    margin-right: 30px;
+}
+
+
+
+.dropdown__text     {
+    display:table-cell;
+    vertical-align: middle;
     font-family: 'Raleway', sans-serif;
     font-size: 20;
-    font-weight: medium;
+    padding-left: 20px;
+ 
+    font-weight: 600;
 
 }
 
