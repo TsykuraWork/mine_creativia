@@ -216,7 +216,7 @@
 
 .screen-second button {
     width: 100%;
-  
+    margin-bottom: 10px;
     text-align: left;
     border: none;
     border: 2px solid #E7E7E7;
@@ -287,7 +287,10 @@
     margin-right: 30px;
 }
 
-
+.screen-second .intro-text{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
 
 .dropdown__text     {
     display:table-cell;
