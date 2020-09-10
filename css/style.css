@@ -666,18 +666,18 @@
 .bc:hover{
     background: rgb(0,0,0,.9);
     transition: .2s;
+     cursor: pointer;
 }
+
 .bc:hover + .invis-block{
     visibility: visible;
     cursor: pointer;
 }
 
-.invis-block:hover {
-
-}
 
 .invis-block:hover {
     visibility: visible;
+    cursor: pointer;
 }
 
 
