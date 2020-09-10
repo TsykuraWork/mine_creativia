@@ -401,6 +401,10 @@
     display: inline-block;
     
 }
+.feature-block{
+    margin-top: 100px;
+    margin-bottom: 230px;
+}
 
 .features p {
     margin-top: 16px;
