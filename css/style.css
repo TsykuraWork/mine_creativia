@@ -5,7 +5,7 @@
 /* FIRST SCREEN */
 
 .screen-first {
-    background: url(../img/Clip@2x.png);
+    background: url(../img/first_screen/Clip@2x.png);
     background-size: cover;
     height: 700px
 }
@@ -237,7 +237,7 @@
 }
 
 .screen-second button:focus>.dropdown__icon-plus {
-    background-image: url(./../img/Shape\ 6.png);
+    background-image: url(./../img/second_screen/Shape\ 6.png);
     background-repeat: no-repeat;
     background-position: 50% 50%;
 
@@ -277,7 +277,7 @@
 .dropdown__icon-plus {
     display: table-cell;
 
-    background-image: url(./../img/Shape\ 7.png);
+    background-image: url(./../img/second_screen/Shape\ 7.png);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     height: 45px;
@@ -399,30 +399,122 @@
     margin-right: 30px;
     text-align: center;
     display: inline-block;
-    
+
 }
-.feature-block{
+
+.feature-block {
     margin-top: 100px;
     margin-bottom: 230px;
+
 }
 
 .features p {
     margin-top: 16px;
 }
+
 .img-block {
     position: relative;
 }
+
+
+
+
 .features .shape {
+    background: url(./../img/second_screen/Shape\ 2.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: 88px 76px;
+    height: 95px;
+    width: 88px;
+    margin: 0 auto;
     margin-bottom: 15px;
+    transition: .3s;
 
 }
-.features .icon {
+
+.features .shape:hover {
+    background: url(./../img/second_screen/shape\ 2\ active.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: 88px 76px;
+    height: 95px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+
+
+
+/* ICON BLOCK */
+
+.first-feature .icon {
     height: 33px;
     width: 33px;
+    background: url(./../img/second_screen/heart.png);
+    background-size: 33px 33px;
     position: absolute;
-    left:44%;
-    top:26%;
+    left: 44%;
+    top: 26%;
 
+}
+
+
+
+.second-feature .icon {
+    height: 33px;
+    width: 33px;
+    background: url(./../img/second_screen/features_2.png);
+    background-size: 33px 33px;
+    position: absolute;
+    left: 44%;
+    top: 26%;
+
+}
+
+.third-feature .icon {
+    height: 31px;
+    width: 26px;
+    background: url(./../img/second_screen/features\ 3.png);
+    background-size: 26px 31px;
+    position: absolute;
+    left: 45%;
+    top: 26%;
+
+}
+
+.fourth-feature .icon {
+    height: 39px;
+    width: 31px;
+    background: url(./../img/second_screen/features\ 4.png);
+    background-size: 31px 39px;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+
+}
+
+/* /ICON BLOCK */
+
+
+.first-feature .shape:hover> .icon,
+ .second-feature .shape:hover>.icon {
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    background-position: 4px 2px;
+
+}
+
+.third-feature .shape:hover>.icon{
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    background-position: 3px 2px;
+}
+
+
+.fourth-feature .shape:hover>.icon{
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    background-position: 2px 2px;
 }
 
 
