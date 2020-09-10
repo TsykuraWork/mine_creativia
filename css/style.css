@@ -642,24 +642,41 @@
 }
 
 
-
-
 .invis-block{
     position: absolute;
-    left: 40%;
-    top: 40%;
+    left: 50%;
+    top: 50%;
+    transform:translate(-40px, -23.5px);
+    color:white;
+    text-align: center;
     visibility: hidden;
     color: white;
 
 }
 
+.bc{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 
-.block:hover{
-    filter: brightness(.1);
-    transition: .2s;
 }
 
-.block:hover .invis-block{
+.bc:hover{
+    background: rgb(0,0,0,.9);
+    transition: .2s;
+}
+.bc:hover + .invis-block{
+    visibility: visible;
+    cursor: pointer;
+}
+
+.invis-block:hover {
+
+}
+
+.invis-block:hover {
     visibility: visible;
 }
 
