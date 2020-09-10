@@ -641,18 +641,15 @@
     position: relative;
 }
 
-.block .main-img{
- 
-}
 
-.invis-block img{
- 
-}
+
+
 .invis-block{
     position: absolute;
     left: 40%;
     top: 40%;
     visibility: hidden;
+    color: white;
 
 }
 
@@ -660,12 +657,12 @@
 .block:hover{
     filter: brightness(.1);
     transition: .2s;
+}
 
-}
-.block:hover > .invis-block{
+.block:hover .invis-block{
     visibility: visible;
-    filter: opacity(1)
 }
+
 
 
 
