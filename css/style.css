@@ -779,9 +779,10 @@
 }
 
 
-.main-content{
+.main-content {
     width: 100%;
 }
+
 .fourth-screen .left-side {
     position: absolute;
     left: 24%;
@@ -792,7 +793,7 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%, 71px);
-   
+
 
 }
 
@@ -830,7 +831,7 @@
     text-align: center;
     position: absolute;
     left: 50%;
-    transform: translate(-50%,-20px);
+    transform: translate(-50%, -20px);
     z-index: 4;
 }
 
@@ -858,7 +859,8 @@
 
 
 }
-.right-side .block-block .block { 
+
+.right-side .block-block .block {
     justify-content: flex-start;
 }
 
@@ -882,26 +884,26 @@
     position: relative;
 }
 
-.aiemgi{
+.aiemgi {
     width: 13px;
     height: 10px;
     background: url(./../img/fourth_screen/1\ copy.png);
     margin: 50% 50%;
-    transform:translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-.block:focus{
+.block:focus {
     background-color: #FF0036;
     color: white;
     outline: none;
 }
 
-.block:focus > .block-image{
-    background-image:url(./../img/fourth_screen/Shape\ 2\ copy\ 5.png);
+.block:focus>.block-image {
+    background-image: url(./../img/fourth_screen/Shape\ 2\ copy\ 5.png);
 }
 
 
-.block:focus >.block-image > .aiemgi{ 
+.block:focus>.block-image>.aiemgi {
     background: url(./../img/fourth_screen/1.png);
 
 }
@@ -975,3 +977,150 @@
 
 
 /* /FOURTH SCREEN */
+
+
+/* FIFTH SCREEN */
+
+
+.fifth-screen {
+    background: url(./../img/fifth_screen/Clip.png);
+    height: 652px;
+    margin-top: 850px;
+    color: white;
+
+}
+
+
+.fifth-screen span {
+    color: red;
+}
+
+
+.fifth-screen .header {
+    text-align: center;
+}
+
+.fifth-screen .header__title,
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 65px 0 37.5px 0;
+}
+
+.fifth-screen .header__description,
+.description {
+    font-family: 'Lato',
+        sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #A4A4A4;
+}
+
+.fifth-screen .black {
+
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .9;
+}
+
+
+.fifth-screen .left-side {
+    text-align: center;
+    flex:1;
+}
+
+.main-content {
+    margin-top: 73px;
+}
+
+
+.fifth-screen .left-side .title {
+    margin-bottom: 40px;
+    padding-top: 17px;
+    padding-bottom: 0px;
+    font-size: 20px;
+}
+
+
+.fifth-screen .left-side .description {
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.fifth-screen .left-side img {
+    margin-bottom: 14px;
+}
+
+.fifth-screen .left-side .image-block p {
+    color: red;
+    font-family: 'Raleway',
+        sans-serif;
+    font-size: 16;
+    font-weight: 700;
+}
+
+
+.fifth-screen .left-side .square {
+height: 8px;
+width: 8px;
+display: inline-block;
+background-color: #E0E0E0;
+}
+
+.fifth-screen .left-side .red{
+    background-color: red;
+}
+
+.fifth-screen .main-content{ 
+    display: flex;
+
+}
+
+.fifth-screen .right-side{
+    color:black;
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex:1;
+}
+
+.fifth-screen .left-side {
+    text-align: center;
+    flex: 1;
+    padding-left: 10%;
+    padding-right: 30px;
+}
+
+.fifth-screen .right-side .back{
+    background: url(./../img/fifth_screen/Layer\ 2\ copy\ 7.png) no-repeat;
+
+    
+}
+
+.fifth-screen .right-side .block {
+    width: 270px;
+    height: 116px;
+    background-color: white;
+    margin: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.fifth-screen .right-side .block p{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
+
+
+.fifth-screen .bottom{
+    height: 10px;
+    background: none;
+    transform:translate(0,130%);
+}
+
+/* /FIFTH SCREEN */
