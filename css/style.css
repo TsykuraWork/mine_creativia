@@ -830,8 +830,12 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    cursor: pointer;
+
 
 }
+
+
 
 .block .block-text {
     display: inline-block;
@@ -842,7 +846,7 @@
 }
 
 .block .block-image {
-    background: url(./../img/fourth_screen/Shape\ 2\ copy\ 5.png) no-repeat;
+    background: url(./../img/fourth_screen/Shape\ 2\ 5.png) no-repeat;
     background-size: 37px 32px;
     height: 32px;
     width: 37px;
@@ -851,12 +855,37 @@
     position: relative;
 }
 
-.block .block-image img{
-    position: absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%, -50%);
+.aiemgi{
+    width: 13px;
+    height: 10px;
+    background: url(./../img/fourth_screen/1\ copy.png);
+    margin: 50% 50%;
+    transform:translate(-50%,-50%);
 }
+
+.block:focus{
+    background-color: #FF0036;
+    color: white;
+    outline: none;
+}
+
+.block:focus > .block-image{
+    background-image:url(./../img/fourth_screen/Shape\ 2\ copy\ 5.png);
+}
+
+
+.block:focus >.block-image > .aiemgi{ 
+    background: url(./../img/fourth_screen/1.png);
+
+}
+
+
+
+
+
+
+
+
 
 .first-dot {
     width: 7.2px;
