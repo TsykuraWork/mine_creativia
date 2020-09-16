@@ -189,6 +189,7 @@
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: bold;
+    color: #505050;
 }
 
 .screen-second span {
@@ -746,6 +747,7 @@
         sans-serif;
     font-size: 16px;
     font-weight: 700;
+    color: #505050;
 }
 
 .fourth-screen__header span {
@@ -753,16 +755,6 @@
 }
 
 
-/* .fourth-screen .main-content{
-    display: flex;
-
-}
-
-
- .main__img-block {
-    position: relative;
-
-} */
 
 
 .phone {
@@ -1000,16 +992,14 @@
     text-align: center;
 }
 
-.fifth-screen .header__title,
-.title {
+.fifth-screen .header__title {
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
     font-weight: 600;
     padding: 65px 0 37.5px 0;
 }
 
-.fifth-screen .header__description,
-.description {
+.fifth-screen .header__description {
     font-family: 'Lato',
         sans-serif;
     font-size: 16px;
@@ -1029,6 +1019,17 @@
 .fifth-screen .left-side {
     text-align: center;
     flex:1;
+}
+.fifth-screen .left-side .description {
+    font-family: 'Lato',
+    sans-serif;
+    font-size: 16px;
+}
+
+.fifth-screen .left-side .title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .main-content {
@@ -1082,14 +1083,14 @@ background-color: #E0E0E0;
     color:black;
     display: flex;
     flex-wrap: wrap;
-    
+    padding-right: 7%;
     flex:1;
 }
 
 .fifth-screen .left-side {
     text-align: center;
     flex: 1;
-    padding-left: 10%;
+    padding-left: 7%;
     padding-right: 30px;
 }
 
@@ -1124,3 +1125,14 @@ background-color: #E0E0E0;
 }
 
 /* /FIFTH SCREEN */
+
+
+/* SIXTH SCREEN */
+
+.sixth-screen .bottom{
+    background-color: transparent;
+}
+
+
+
+/* /SIXTH SCREEN */
