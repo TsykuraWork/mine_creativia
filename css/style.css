@@ -1147,6 +1147,10 @@ background-color: #E0E0E0;
     font-weight: 700;
 }
 
+.sixth-screen .title2 {
+    margin-top:37px;
+}
+
 .sixth-screen .description{
     margin-bottom: 53px;
     font-family: "Lato", sans-serif;
@@ -1259,4 +1263,57 @@ height: 240px;
     visibility: hidden;
 
 }
+
+
+
+
+
+.sixth-screen .second-block-block {
+
+    margin-top: 100px;
+
+}
+
+.sixth-screen .second-block-block .wrapper{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+}
+
+.sixth-screen .second-block-block .block{
+    width: 145px;
+}
+
+.sixth-screen .second-block-block .circle{
+    width: 145px;
+    height: 145px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+}
+
+
+.sixth-screen .second-block-block .block-title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin: 21px 0 14.4px 0;
+}
+
+.sixth-screen .second-block-block .block-description {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #505050;
+}
+
+
+
+
 /* /SIXTH SCREEN */
