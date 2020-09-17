@@ -20,7 +20,7 @@
     letter-spacing: 0.4em;
 }
 
-.logo-section {
+.screen-first .logo-section {
     position: absolute;
     left: 115px;
     top: -57.5px;
@@ -28,43 +28,43 @@
 
 }
 
-.logo__hex {
+.screen-first .logo__hex {
     height: 103.5px;
     width: 250px;
     position: absolute;
     background-color: #131313;
 }
 
-.logo__center {
+.screen-first .logo__center {
     border-right: 2px solid red;
     border-left: 2px solid red
 }
 
-.logo__rotate-right {
+.screen-first .logo__rotate-right {
     border-right: 2px solid red;
     transform: rotate(45deg);
 }
 
-.logo__rotate-left {
+.screen-first .logo__rotate-left {
     border-left: 2px solid red;
     transform: rotate(-45deg);
 }
 
 
 
-.logo__rotate-top {
+.screen-first .logo__rotate-top {
     border-right: 2px solid red;
     transform: rotate(90deg);
 }
 
-.screen-first__hidden {
+.screen-first .screen-first__hidden {
     width: 100%;
     height: 700px;
     z-index: -1;
     background-color: rgb(0, 0, 0, .7);
 }
 
-.nav-container {
+.screen-first .nav-container {
     background-color: rgb(0, 0, 0, .9);
     height: 70px;
 }
@@ -115,7 +115,7 @@
 }
 
 
-.red {
+.screen-first .red {
     color: red;
 }
 
@@ -124,7 +124,7 @@
 
 }
 
-.first-button {
+.screen-first .first-button {
     color: white;
     padding: 13px 35px;
     background-color: #131313;
@@ -135,7 +135,7 @@
     transition: background .5s;
 }
 
-.first-button:hover {
+.screen-first .first-button:hover {
     background-color: #FF0036;
     cursor: pointer;
 }
@@ -225,12 +225,6 @@
     background-color: #F7F7F7;
     cursor: pointer;
     padding: 0px;
-
-
-
-
-
-
 }
 
 .screen-second button:focus {
@@ -265,17 +259,10 @@
     padding: 10px;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
-
-
-    /* POSMOTRET SSILKY DLYA VIPADAUSHEGO MENU http://htmlbook.ru/blog/primer-slaydera-upravlyaemogo-tolko-s-pomoshchyu-css3 */
-
+    
 }
 
-.third-screen .bottom {
-    height: 109px;
-    background: #262626;
 
-}
 
 .zaglushka {
     height: 1000px;
@@ -299,7 +286,7 @@
     margin-bottom: 30px;
 }
 
-.dropdown__text {
+.screen-second .dropdown__text {
     display: table-cell;
     vertical-align: middle;
     font-family: 'Raleway', sans-serif;
@@ -316,13 +303,13 @@
     margin-left: 5%;
 }
 
-.img-container {
+.screen-second .img-container {
     position: relative;
     margin-top: 70px;
     height: 400px;
 }
 
-.front {
+.screen-second .front {
     width: 415px;
     height: 360px;
     z-index: 5;
@@ -331,7 +318,7 @@
 
 }
 
-.left {
+.screen-second .left {
     width: 375px;
     height: 324px;
     z-index: 2;
@@ -341,7 +328,7 @@
 
 }
 
-.right {
+.screen-second .right {
     width: 375px;
     height: 324px;
     z-index: 2;
@@ -352,7 +339,7 @@
 
 }
 
-.copy-right {
+.screen-second .copy-right {
     width: 375px;
     height: 324px;
     z-index: 2;
@@ -364,7 +351,7 @@
 }
 
 
-.copy-left {
+.screen-second .copy-left {
     width: 375px;
     height: 324px;
     z-index: 2;
@@ -374,7 +361,7 @@
     opacity: .8;
 }
 
-.active-img {
+.screen-second .active-img {
     width: 427px;
     height: 360px;
     z-index: 5;
@@ -388,7 +375,8 @@
 }
 
 
-.bottom-line {
+.screen-second .bottom-line,
+.sixth-screen .bottom-line {
     width: 50%;
     margin: 0 auto;
     margin-top: 100px;
@@ -397,11 +385,12 @@
 }
 
 
-.bottom-line img {
+.screen-second .bottom-line img,
+.sixth-screen .bottom-line img {
     transform: translateY(15px)
 }
 
-.features {
+.screen-second .features {
     width: 270px;
     margin-right: 30px;
     text-align: center;
@@ -409,24 +398,24 @@
 
 }
 
-.feature-block {
+.screen-second .feature-block {
     margin-top: 100px;
     margin-bottom: 230px;
 
 }
 
-.features p {
+.screen-second .features p {
     margin-top: 16px;
 }
 
-.img-block {
+.screen-second .img-block {
     position: relative;
 }
 
 
 
 
-.features .shape {
+.screen-second .features .shape {
     background: url(./../img/second_screen/Shape\ 2.png);
     background-repeat: no-repeat;
     background-position: 50% 0;
@@ -439,7 +428,7 @@
 
 }
 
-.features .shape:hover {
+.screen-second .features .shape:hover {
     background: url(./../img/second_screen/shape\ 2\ active.png);
     background-repeat: no-repeat;
     background-position: 50% 0;
@@ -454,7 +443,7 @@
 
 /* ICON BLOCK */
 
-.first-feature .icon {
+.screen-second .first-feature .icon {
     height: 33px;
     width: 33px;
     background: url(./../img/second_screen/heart.png);
@@ -467,7 +456,7 @@
 
 
 
-.second-feature .icon {
+.screen-second .second-feature .icon {
     height: 33px;
     width: 33px;
     background: url(./../img/second_screen/features_2.png);
@@ -478,7 +467,7 @@
 
 }
 
-.third-feature .icon {
+.screen-second .third-feature .icon {
     height: 31px;
     width: 26px;
     background: url(./../img/second_screen/features\ 3.png);
@@ -489,7 +478,7 @@
 
 }
 
-.fourth-feature .icon {
+.screen-second .fourth-feature .icon {
     height: 39px;
     width: 31px;
     background: url(./../img/second_screen/features\ 4.png);
@@ -503,35 +492,35 @@
 /* /ICON BLOCK */
 
 
-.first-feature .shape:hover>.icon,
-.second-feature .shape:hover>.icon {
+.screen-second .first-feature .shape:hover>.icon,
+.screen-second .second-feature .shape:hover>.icon {
     background-size: 80% auto;
     background-repeat: no-repeat;
     background-position: 4px 2px;
 
 }
 
-.third-feature .shape:hover>.icon {
+.screen-second .third-feature .shape:hover>.icon {
     background-size: 80% auto;
     background-repeat: no-repeat;
     background-position: 3px 2px;
 }
 
 
-.fourth-feature .shape:hover>.icon {
+.screen-second .fourth-feature .shape:hover>.icon {
     background-size: 80% auto;
     background-repeat: no-repeat;
     background-position: 2px 2px;
 }
 
 
-.features .title {
+.screen-second .features .title {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 20px;
 }
 
-.features .description {
+.screen-second .features .description {
     font-family: 'Lato', sans-serif;
 
     font-size: 16px;
@@ -589,75 +578,77 @@
 
 }
 
-.grid {
+.third-screen .grid {
     display: grid;
     grid-template-columns: repeat(14, [col] 1fr);
     grid-template-rows: repeat(2, [row] 350px);
     background-color: red;
 }
+.third-screen .main-content {
+    margin-top: 73px;
+}
 
-
-.block_1 {
+.third-screen .block_1 {
     grid-column: col 1 / col 5;
     background-color: #F39943;
 }
 
-.block_2 {
+.third-screen .block_2 {
     grid-column: col 5 / col 8;
     background-color: #3782AA;
 }
 
-.block_3 {
+.third-screen .block_3 {
     grid-column: col 8 / col 12;
     background-color: #EF5D88;
 }
 
-.block_4 {
+.third-screen .block_4 {
     grid-column: col 12 / col 15;
     background-color: #F6F0E0;
 }
 
-.block_5 {
+.third-screen .block_5 {
     grid-column: col 1 / col 4;
     grid-row: row 2 / row 3;
     background-color: #56CC82;
 }
 
-.block_6 {
+.third-screen .block_6 {
     grid-column: col 4 / col 8;
     grid-row: row 2 / row 3;
     background-color: #95A5A5;
 }
 
-.block_7 {
+.third-screen .block_7 {
     grid-column: col 8 / col 11;
     grid-row: row 2 / row 3;
     background-color: #24B0C9;
 }
 
-.block_8 {
+.third-screen .block_8 {
     grid-column: col 11 / col 15;
     grid-row: row 2 / row 3;
     background-color: #FA8562;
 }
 
 
-.big .main-img {
+.third-screen .big .main-img {
     transform: translateX(34px);
 
 }
 
-.small .main-img {
+.third-screen .small .main-img {
     transform: translateX(25.5px);
 
 }
 
-.block {
+.third-screen .block {
     position: relative;
 }
 
 
-.invis-block {
+.third-screen .invis-block {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -669,11 +660,11 @@
 
 }
 
-.invis-block p {
+.third-screen .invis-block p {
     margin-bottom: 26px;
 }
 
-.bc {
+.third-screen .bc {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -682,25 +673,25 @@
 
 }
 
-.bc:hover {
+.third-screen .bc:hover {
     background: rgb(0, 0, 0, .9);
     transition: .2s;
     cursor: pointer;
 }
 
-.bc:hover+.invis-block {
+.third-screen .bc:hover+.invis-block {
     visibility: visible;
     cursor: pointer;
 }
 
 
-.invis-block:hover {
+.third-screen .invis-block:hover {
     visibility: visible;
     cursor: pointer;
 }
 
 
-.red-line {
+.third-screen .red-line {
     border-bottom: 2px red solid;
     width: 515px;
     margin: 0 auto;
@@ -708,7 +699,7 @@
     position: relative;
 }
 
-.red-line img {
+.third-screen .red-line img {
     position: absolute;
     transform: translate(-10.5px, -9.5px);
     left: 50%;
@@ -716,7 +707,11 @@
 
 }
 
+.third-screen .bottom {
+    height: 109px;
+    background: #262626;
 
+}
 /* /THIRD SCREEN */
 
 /* FOURTH SCREEN */
@@ -757,7 +752,7 @@
 
 
 
-.phone {
+.fourth-screen .phone {
     width: 370px;
     height: 531px;
     border-radius: 20px;
@@ -771,7 +766,7 @@
 }
 
 
-.main-content {
+.fourth-screen .main-content {
     width: 100%;
 }
 
@@ -796,21 +791,21 @@
     transform: translate(-50%, 71px);
 }
 
-.front-square {
+.fourth-screen .front-square {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -100px);
     z-index: 3;
 }
 
-.back-square {
+.fourth-screen .back-square {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -305px);
     z-index: 1;
 }
 
-.bottom-square button {
+.fourth-screen .bottom-square button {
     width: 170px;
     height: 50px;
     font-size: 20px;
@@ -828,7 +823,7 @@
 }
 
 
-.phone__border {
+.fourth-screen .phone__border {
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -838,7 +833,7 @@
 }
 
 
-.block-block .block {
+.fourth-screen .block-block .block {
     width: 370px;
     height: 53px;
     border: 1px solid #EBEBEB;
@@ -852,13 +847,13 @@
 
 }
 
-.right-side .block-block .block {
+.fourth-screen .right-side .block-block .block {
     justify-content: flex-start;
 }
 
 
 
-.block .block-text {
+.fourth-screen .block .block-text {
     display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
@@ -866,7 +861,7 @@
 
 }
 
-.block .block-image {
+.fourth-screen .block .block-image {
     background: url(./../img/fourth_screen/Shape\ 2\ 5.png) no-repeat;
     background-size: 37px 32px;
     height: 32px;
@@ -876,7 +871,7 @@
     position: relative;
 }
 
-.aiemgi {
+.fourth-screen .aiemgi {
     width: 13px;
     height: 10px;
     background: url(./../img/fourth_screen/1\ copy.png);
@@ -884,18 +879,18 @@
     transform: translate(-50%, -50%);
 }
 
-.block:focus {
+.fourth-screen .block:focus {
     background-color: #FF0036;
     color: white;
     outline: none;
 }
 
-.block:focus>.block-image {
+.fourth-screen .block:focus>.block-image {
     background-image: url(./../img/fourth_screen/Shape\ 2\ copy\ 5.png);
 }
 
 
-.block:focus>.block-image>.aiemgi {
+.fourth-screen .block:focus>.block-image>.aiemgi {
     background: url(./../img/fourth_screen/1.png);
 
 }
@@ -907,7 +902,7 @@
 
 
 
-.first-dot {
+.fourth-screen .first-dot {
     width: 7.2px;
     height: 7.2px;
     border-radius: 50%;
@@ -918,7 +913,7 @@
     position: relative;
 }
 
-.second-dot {
+.fourth-screen .second-dot {
     width: 3.2px;
     height: 3.2px;
     border-radius: 50%;
@@ -931,7 +926,7 @@
 
 }
 
-.third-dot {
+.fourth-screen .third-dot {
     width: 0px;
     height: 0px;
     border-radius: 50%;
@@ -942,7 +937,7 @@
     transform: translate(-50%, -50%);
 }
 
-.phone__screen-border {
+.fourth-screen .phone__screen-border {
     width: 346px;
     height: 434px;
     border: 6px solid #444444;
@@ -950,7 +945,7 @@
     margin: auto;
 }
 
-.phone__screen-border .img-block {
+.fourth-screen .phone__screen-border .img-block {
     height: 374px;
     width: 100%;
     background: url(./../img/fourth_screen/clip2.png) no-repeat;
@@ -959,7 +954,7 @@
 }
 
 
-.phone__screen-border .black-block {
+.fourth-screen .phone__screen-border .black-block {
     height: 48px;
     width: 100%;
     background-color: black;
@@ -1032,9 +1027,7 @@
     font-weight: 500;
 }
 
-.main-content {
-    margin-top: 73px;
-}
+
 
 
 .fifth-screen .left-side .title {
@@ -1132,7 +1125,138 @@ background-color: #E0E0E0;
 .sixth-screen .bottom{
     background-color: transparent;
 }
+.sixth-screen{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.sixth-screen header {
+    text-align: center;
+
+}
+
+.sixth-screen span{ 
+    color: red;
+}
+
+.sixth-screen .title{
+    margin-top: 151px;
+    margin-bottom: 37px;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.sixth-screen .description{
+    margin-bottom: 53px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+
+
+.sixth-screen .first-block-block{
+    display: flex;
+    
+}
 
 
 
+.sixth-screen .first-block-block  .text-block{
+    border: 1px solid #E7E7E7;
+}
+.sixth-screen .first-block-block .block-button{
+    padding: 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: white;
+}
+
+
+.sixth-screen .first-block-block  .block-title {
+    margin:30px 0 15px 0;     
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+}
+
+.sixth-screen .first-block-block  .block-description {
+    font-family: "Lato",
+    sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.sixth-screen .first-block-block .image {
+width: 270px;
+height: 240px;
+}
+
+.sixth-screen .first-block-block{
+    display: flex;
+    justify-content: space-between;
+}
+.sixth-screen .first-block-block .image-first {
+    background: url(./../img/sixth_screen/Bruce_Wayne.png);
+}
+.sixth-screen .first-block-block .image-second {
+    background: url(./../img/sixth_screen/Clip.png);
+}
+.sixth-screen .first-block-block .image-third {
+    background: url(./../img/sixth_screen/Sarah.png);
+}
+.sixth-screen .first-block-block .image-fourth {
+    background: url(./../img/sixth_screen/johan.png);
+}
+
+
+.sixth-screen .first-block-block .block-button:focus>.image {
+    background: #262626;
+   
+}
+
+.sixth-screen .first-block-block .block-button:focus>.text-block>.block-title{
+    color: red;
+}
+.sixth-screen .first-block-block .block-button:focus>.text-block{
+    
+    border-color: black;
+}
+
+
+
+.sixth-screen .first-block-block .block-button:focus >.invisible {
+    transform: translate(0, 140px);
+    transition: .3s ease-in-out;
+    visibility: visible;
+
+}
+
+.sixth-screen .first-block-block .block-img1,
+.sixth-screen .first-block-block .block-img2,
+.sixth-screen .first-block-block .block-img3{
+    display: inline-block;
+    width: 45px;
+    height: 41px;
+    background:url(./../img/sixth_screen/Shape\ 3\ copy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+  
+}
+
+
+.sixth-screen .first-block-block .block-img1 img,
+.sixth-screen .first-block-block .block-img2 img,
+.sixth-screen .first-block-block .block-img3 img {
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%)
+}
+
+.sixth-screen .invisible {
+    visibility: hidden;
+
+}
 /* /SIXTH SCREEN */
