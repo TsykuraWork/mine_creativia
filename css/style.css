@@ -259,7 +259,7 @@
     padding: 10px;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
-    
+
 }
 
 
@@ -584,6 +584,7 @@
     grid-template-rows: repeat(2, [row] 350px);
     background-color: red;
 }
+
 .third-screen .main-content {
     margin-top: 73px;
 }
@@ -712,6 +713,7 @@
     background: #262626;
 
 }
+
 /* /THIRD SCREEN */
 
 /* FOURTH SCREEN */
@@ -1013,11 +1015,12 @@
 
 .fifth-screen .left-side {
     text-align: center;
-    flex:1;
+    flex: 1;
 }
+
 .fifth-screen .left-side .description {
     font-family: 'Lato',
-    sans-serif;
+        sans-serif;
     font-size: 16px;
 }
 
@@ -1057,27 +1060,27 @@
 
 
 .fifth-screen .left-side .square {
-height: 8px;
-width: 8px;
-display: inline-block;
-background-color: #E0E0E0;
+    height: 8px;
+    width: 8px;
+    display: inline-block;
+    background-color: #E0E0E0;
 }
 
-.fifth-screen .left-side .red{
+.fifth-screen .left-side .red {
     background-color: red;
 }
 
-.fifth-screen .main-content{ 
+.fifth-screen .main-content {
     display: flex;
 
 }
 
-.fifth-screen .right-side{
-    color:black;
+.fifth-screen .right-side {
+    color: black;
     display: flex;
     flex-wrap: wrap;
     padding-right: 7%;
-    flex:1;
+    flex: 1;
 }
 
 .fifth-screen .left-side {
@@ -1087,10 +1090,10 @@ background-color: #E0E0E0;
     padding-right: 30px;
 }
 
-.fifth-screen .right-side .back{
+.fifth-screen .right-side .back {
     background: url(./../img/fifth_screen/Layer\ 2\ copy\ 7.png) no-repeat;
 
-    
+
 }
 
 .fifth-screen .right-side .block {
@@ -1105,16 +1108,16 @@ background-color: #E0E0E0;
 
 
 
-.fifth-screen .right-side .block p{
+.fifth-screen .right-side .block p {
     font-family: 'Lato', sans-serif;
     font-size: 24px;
 }
 
 
-.fifth-screen .bottom{
+.fifth-screen .bottom {
     height: 10px;
     background: none;
-    transform:translate(0,130%);
+    transform: translate(0, 130%);
 }
 
 /* /FIFTH SCREEN */
@@ -1122,24 +1125,26 @@ background-color: #E0E0E0;
 
 /* SIXTH SCREEN */
 
-.sixth-screen .bottom{
+.sixth-screen .bottom {
     background-color: transparent;
 }
-.sixth-screen{
+
+.sixth-screen {
     width: 80%;
     margin: 0 auto;
 
 }
+
 .sixth-screen header {
     text-align: center;
 
 }
 
-.sixth-screen span{ 
+.sixth-screen span {
     color: red;
 }
 
-.sixth-screen .title{
+.sixth-screen .title {
     margin-top: 151px;
     margin-bottom: 37px;
     font-family: "Raleway", sans-serif;
@@ -1148,27 +1153,28 @@ background-color: #E0E0E0;
 }
 
 .sixth-screen .title2 {
-    margin-top:37px;
+    margin-top: 37px;
 }
 
-.sixth-screen .description{
+.sixth-screen .description {
     margin-bottom: 53px;
     font-family: "Lato", sans-serif;
     font-size: 16px;
 }
 
 
-.sixth-screen .first-block-block{
+.sixth-screen .first-block-block {
     display: flex;
-    
+
 }
 
 
 
-.sixth-screen .first-block-block  .text-block{
+.sixth-screen .first-block-block .text-block {
     border: 1px solid #E7E7E7;
 }
-.sixth-screen .first-block-block .block-button{
+
+.sixth-screen .first-block-block .block-button {
     padding: 0;
     outline: none;
     border: none;
@@ -1178,37 +1184,41 @@ background-color: #E0E0E0;
 }
 
 
-.sixth-screen .first-block-block  .block-title {
-    margin:30px 0 15px 0;     
+.sixth-screen .first-block-block .block-title {
+    margin: 30px 0 15px 0;
     font-family: "Raleway", sans-serif;
     font-size: 20px;
 }
 
-.sixth-screen .first-block-block  .block-description {
+.sixth-screen .first-block-block .block-description {
     font-family: "Lato",
-    sans-serif;
+        sans-serif;
     font-size: 16px;
     margin-bottom: 30px;
 }
 
 .sixth-screen .first-block-block .image {
-width: 270px;
-height: 240px;
+    width: 270px;
+    height: 240px;
 }
 
-.sixth-screen .first-block-block{
+.sixth-screen .first-block-block {
     display: flex;
     justify-content: space-between;
 }
+
 .sixth-screen .first-block-block .image-first {
     background: url(./../img/sixth_screen/Bruce_Wayne.png);
 }
+
 .sixth-screen .first-block-block .image-second {
     background: url(./../img/sixth_screen/Clip.png);
 }
+
 .sixth-screen .first-block-block .image-third {
     background: url(./../img/sixth_screen/Sarah.png);
 }
+
 .sixth-screen .first-block-block .image-fourth {
     background: url(./../img/sixth_screen/johan.png);
 }
@@ -1216,20 +1226,21 @@ height: 240px;
 
 .sixth-screen .first-block-block .block-button:focus>.image {
     background: #262626;
-   
+
 }
 
-.sixth-screen .first-block-block .block-button:focus>.text-block>.block-title{
+.sixth-screen .first-block-block .block-button:focus>.text-block>.block-title {
     color: red;
 }
-.sixth-screen .first-block-block .block-button:focus>.text-block{
-    
+
+.sixth-screen .first-block-block .block-button:focus>.text-block {
+
     border-color: black;
 }
 
 
 
-.sixth-screen .first-block-block .block-button:focus >.invisible {
+.sixth-screen .first-block-block .block-button:focus>.invisible {
     transform: translate(0, 140px);
     transition: .3s ease-in-out;
     visibility: visible;
@@ -1238,15 +1249,15 @@ height: 240px;
 
 .sixth-screen .first-block-block .block-img1,
 .sixth-screen .first-block-block .block-img2,
-.sixth-screen .first-block-block .block-img3{
+.sixth-screen .first-block-block .block-img3 {
     display: inline-block;
     width: 45px;
     height: 41px;
-    background:url(./../img/sixth_screen/Shape\ 3\ copy.png);
+    background: url(./../img/sixth_screen/Shape\ 3\ copy.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
-  
+
 }
 
 
@@ -1254,9 +1265,9 @@ height: 240px;
 .sixth-screen .first-block-block .block-img2 img,
 .sixth-screen .first-block-block .block-img3 img {
     position: absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%,-50%)
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
 }
 
 .sixth-screen .invisible {
@@ -1274,19 +1285,19 @@ height: 240px;
 
 }
 
-.sixth-screen .second-block-block .wrapper{
-        display: flex;
-        justify-content: space-around;
-        text-align: center;
-        width: 70%;
-        margin: 0 auto;
+.sixth-screen .second-block-block .wrapper {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
 }
 
-.sixth-screen .second-block-block .block{
+.sixth-screen .second-block-block .block {
     width: 145px;
 }
 
-.sixth-screen .second-block-block .circle{
+.sixth-screen .second-block-block .circle {
     width: 145px;
     height: 145px;
     border: 2px solid black;
@@ -1301,7 +1312,7 @@ height: 240px;
 }
 
 
-.sixth-screen .second-block-block .block-title{
+.sixth-screen .second-block-block .block-title {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     margin: 21px 0 14.4px 0;
@@ -1317,3 +1328,171 @@ height: 240px;
 
 
 /* /SIXTH SCREEN */
+
+
+/* SEVENTH SCREEN */
+
+.seventh-screen {
+    height: 1122px;
+    background-color: #272727;
+}
+
+
+
+.seventh-screen .wrapper {
+    width: 80%;
+    margin: 100px auto 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.seventh-screen header {
+    text-align: center;
+
+}
+
+.seventh-screen span {
+    color: red;
+}
+
+.seventh-screen .block {
+    width: 570px;
+}
+
+.seventh-screen .title {
+    padding-top: 100px;
+    margin-bottom: 37px;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: white
+}
+
+.seventh-screen .block-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    color: white
+}
+
+.seventh-screen .description {
+    margin-bottom: 53px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: #A4A4A4;
+}
+
+
+.seventh-screen .block-header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.seventh-screen .image-cover {
+    background: url(./../img/seventh_screen/Shape\ 2.png) no-repeat;
+    width: 66px;
+    height: 57px;
+    font-size: 30px;
+    margin-right: 32px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.seventh-screen .image-cover .inner-image {
+    width: 31px;
+    height: 31px;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+
+.seventh-screen .block-title {
+    line-height: 66px;
+}
+
+.seventh-screen .block .description {
+    background-color: #343434;
+    color: #A4A4A4;
+    padding: 25px 31px;
+}
+
+.seventh-screen .block:hover>.description {
+    background-color: #3D2328;
+}
+
+.seventh-screen .block:hover>.block-header>.image-cover {
+    background:url(./../img/seventh_screen/Shape\ 2\ active.png);
+    transition:.3s;
+}
+
+
+
+ .inner-image1 {
+     background: url(./../img/seventh_screen/normal/1.png) no-repeat;
+     transform: translate(-50%, -200%);
+ }
+
+
+ .seventh-screen .block:hover>.block-header>.image-cover>.inner-image1 {
+     background: url(./../img/seventh_screen/active/1.png);
+         background-size: cover;
+ }
+
+ .inner-image2 {
+     background: url(./../img/seventh_screen/normal/2.png) no-repeat;
+     transform: translate(-50%, 0);
+     
+ }
+
+ .seventh-screen .block:hover>.block-header>.image-cover>.inner-image2 {
+     background: url(./../img/seventh_screen/active/2.png);
+         background-size: cover;
+
+ }
+
+ .inner-image3 {
+     background: url(./../img/seventh_screen/normal/3.png) no-repeat;
+     transform: translate(-50%, 0%);
+ }
+
+
+ .seventh-screen .block:hover>.block-header>.image-cover>.inner-image3 {
+     background: url(./../img/seventh_screen/active/3.png);
+     background-size: cover;
+ }
+
+ .inner-image4 {
+     background: url(./../img/seventh_screen/normal/4.png) no-repeat;
+     transform: translate(-50%, 0%);
+ }
+
+ .seventh-screen .block:hover>.block-header>.image-cover>.inner-image4 {
+     background: url(./../img/seventh_screen/active/4.png);
+         background-size: cover;
+ }
+
+ .inner-image5 {
+     background: url(./../img/seventh_screen/normal/5.png) no-repeat;
+     transform: translate(-50%, 0%);
+ }
+
+ .seventh-screen .block:hover>.block-header>.image-cover>.inner-image5{
+     background: url(./../img/seventh_screen/active/5.png);
+         background-size: cover;
+ }
+
+ .inner-image6 {
+     background: url(./../img/seventh_screen/normal/6.png) no-repeat;
+     transform: translate(-50%, 0%);
+ }
+  .seventh-screen .block:hover>.block-header>.image-cover>.inner-image6 {
+      background: url(./../img/seventh_screen/active/6.png);
+      background-size: cover;
+  }
+/* /SEVENTH SCREEN */
