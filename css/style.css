@@ -1530,6 +1530,105 @@
 
 }
 
+.eighth-screen .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.eighth-screen .block-title{
+    width: 270px;
+    height: 48px;
+    background-color: #262626;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.eighth-screen .block{
+    width: 270px;
+}
+.eighth-screen .price{
+    width: 270px;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.eighth-screen .price  {
+    background-color: #F2F2F2;
+}
+
+
+.eighth-screen .price p{
+    font-family: 'Lato',
+    sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    display: inline-block;
+
+}
+
+.eighth-screen .price span {
+    font-family: 'Lato',
+    sans-serif;
+    display:inline-block;  
+    font-size: 16;
+  
+
+}
+.eighth-screen .block .item{
+    width: 270px;
+    height: 52.2px;
+    border: 1px solid #E7E7E7;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.eighth-screen .item-last{
+    width: 270px;
+    height: 126px;
+    border: 1px solid #E7E7E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eighth-screen .block button{
+    outline: none;
+    width: 228px;
+    height: 38px;
+    color: white;
+    background-color: #262626;
+    font-family: 'Raleway',
+    sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.eighth-screen .block:hover>.price{
+    background-color: red;
+    color: white;
+    transition: .2s;
+}
+
+
+.eighth-screen .block:hover>.item-last>button {
+    transition: .2s;
+    background-color: red;
+}
+
 
 
 
