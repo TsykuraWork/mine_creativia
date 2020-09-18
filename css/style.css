@@ -1441,7 +1441,10 @@
 
  .seventh-screen .block:hover>.block-header>.image-cover>.inner-image1 {
      background: url(./../img/seventh_screen/active/1.png);
-         background-size: cover;
+         background-size: contain ;
+         background-repeat: no-repeat;
+         width: 31px;
+         height: 26px;
  }
 
  .inner-image2 {
@@ -1496,3 +1499,41 @@
       background-size: cover;
   }
 /* /SEVENTH SCREEN */
+
+
+/* EIGHTH SCREEN */
+.eighth-screen {
+ 
+    width: 80%;
+    margin: 100px auto 0px auto;
+}
+.eighth-screen header {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.eighth-screen header span{
+    color:red;
+
+}
+
+.eighth-screen header .title{
+    margin-bottom: 37.4px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.eighth-screen header .description {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+
+}
+
+
+
+
+
+
+
+/* /EIGHTH SCREEN */
