@@ -1692,6 +1692,26 @@
     height: 0;
 }
 
+.nineth-screen .main__header{
+   text-align: center;
+}
+
+.nineth-screen .main .title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 37px;
+}
+.nineth-screen .main span{
+    color: red;
+}
+
+.nineth-screen .main .subtitle {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
 
 .nineth-screen .article-wrapper {
     width: 57%;
